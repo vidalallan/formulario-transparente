@@ -1,0 +1,90 @@
+
+.sec-contato{
+    position: relative;
+    display: flex;
+    flex-direction: row;    
+
+    background: url('../images/paisagem.jpg');
+    background-position: center center;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+}
+
+.sec-contato .col1-2{
+    width: 50%;
+}
+
+.form-col1de2{
+    padding: 20px;
+}
+
+.gradiente-contato{
+    position: absolute;
+    background: linear-gradient(135deg, rgba(255, 126, 95, 0.45) 0%, rgba(0, 180, 216, 0.35) 100%);
+    height: 400px;
+    width: 100%;
+    top: 0;
+    left: 0;    
+    right: 0;
+    bottom: 0;   
+}
+
+.titulo-contato{
+    position: relative;
+    z-index: 9999;
+    color: #fff;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lb{
+    position: relative;
+    z-index: 9999;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#fff;
+    font-weight: 100;
+    margin: 3px 0px;    
+}
+
+
+.tx{
+    position: relative;
+    z-index: 9999;
+    background: transparent;
+    border: 1px solid #fff;
+    height: 35px;
+    width: 90%;
+    color:#fff;
+    margin: 3px 0px;
+    padding-left: 15px;
+    border-radius: 10px;
+}
+
+.ta{
+    height: 100px;
+}
+
+.tx:focus{
+    outline: none;    
+    border: 1px solid #fff;
+}
+
+.bt{
+    position: relative;
+    z-index: 999;
+    background: #2476f0;
+    border: none;
+    width: 100px;
+    height: 30px;
+    color:#fff;
+    margin-top:10px;
+    border-radius: 10px;
+}
+
+.bt:hover{   
+    background: #0865f0;
+    cursor: pointer;
+}
